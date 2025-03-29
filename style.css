@@ -1,0 +1,81 @@
+/* Universal selector - applies to all elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body styling - using element selector */
+body {
+    background-color: #998cd6;
+    color: #333333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Class selector - for main container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(146, 220, 233, 0.507);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(171, 179, 101, 0.1);
+}
+
+/* ID selector - for main heading */
+#main-header {
+    color: #2c3e50;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #3498db;
+}
+
+/* Class selector - for featured image */
+.featured-image {
+    width: 20%;
+    max-width: 30px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border: 5px solid #ecf0f1;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(15, 21, 49, 0.16);
+}
+
+/* Class selector - for content sections */
+.content-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-left: 4px solid #3498db;
+}
+
+/* Class selector - for special text */
+.highlight-text {
+    font-family: 'Courier New', monospace;
+    color: #093a0f;
+    font-weight: bold;
+    background-color: #8b8b8b;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+/* Element selector for paragraphs */
+p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+/* ID selector for footer */
+#main-footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: rgb(212, 108, 190);
+    border-top: 3px solid #3498db;
+}
