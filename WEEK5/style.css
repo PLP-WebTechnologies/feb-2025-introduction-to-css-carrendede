@@ -1,0 +1,65 @@
+/* General reset and base styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header,
+footer {
+    background-color: #004466;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+    padding: 10px 15px;
+    background-color: #006699;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004466;
+    color: #e0f7fa;
+}
+
+#extra-section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e0f7fa;
+    border: 1px solid #00acc1;
+    border-radius: 8px;
+}
+
+@media (max-width: 640px) {
+    body {
+        padding: 10px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
